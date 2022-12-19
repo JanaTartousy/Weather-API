@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,7 +19,160 @@
 /*  Search bar */
 
 /* Current weather */
-
-div {
-  border: 5px solid red;
+@font-face{
+  font-family: Raleway;
+src: local("https://fonts.googleapis.com/css?family=Raleway&display=swap")
 }
+body{
+  margin: 0px;
+}
+div {
+  background-color: rgba(156,206,244,255);
+}
+header{
+  background-color: rgba(117,158,218,255);
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.head.search {
+  color: black;
+
+}
+input:focus{
+  outline: none;
+}
+.city{
+ 
+ padding-top: 10px;
+margin-left: 23px;
+font-family: Raleway;
+background-color: transparent;
+border: none;
+width: 200px;
+
+}
+input::placeholder{
+  color: white;
+  font-size: 20px;
+  font-family: Raleway;
+  border-bottom: 1px solid  rgba(88,121,199,255);
+  
+}
+.app__main .weather{
+  height: 400px;
+  width: 400px;
+  margin: 0px;
+ text-align: center;
+}
+.center{
+  margin: 0px;
+  padding-left: 10px;
+  width: 260px;
+  margin-bottom: -26px;
+ 
+}
+
+.click{
+  background-color: rgba(88,121,199,255);
+  height: 40px;
+  width: 170px;
+  margin-left: 230px;
+  margin-top: 20px;
+  border: none;
+  color: #1c256d;
+  
+ 
+}
+.todayweather{
+ 
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+ justify-content: center;
+ font-family: Raleway;
+ color: #1c256d;
+ align-items: center;
+font-size: 28px;
+margin-left: 70px;
+margin-right: 70px;
+
+ 
+}
+.temp{
+  color: white;
+  font-family: Raleway;
+  font-size: 30px;
+  
+ 
+  
+}
+.temperature{
+  font-weight: bold;
+  font-family: Raleway;
+  color: #1c256d;
+ 
+ 
+}
+.humidity{
+  font-weight: bold;
+  font-family: Raleway;
+  color: #1c256d;
+  
+}
+.pressure{
+  font-weight: bold;
+  font-family: Raleway;
+ 
+}
+.temper{
+  font-family: Raleway;
+  color: #1c256d;
+  font-size: 26px;
+ 
+  
+}
+.tempers{
+  font-family: Raleway;
+  color: #1c256d;
+  display: flex;
+  justify-content: space-between ;
+  
+}
+
+.app__main{
+  text-align: center;
+}
+.section{
+  margin-top: 70px;
+}
+.weather{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 992px) {
+  .todayweather {
+      flex-wrap: wrap;
+      font-size: 40px;
+      padding-bottom: 20px;
+      display: flex;
+  }
+
+  .click {
+      margin: 10px;
+  }
+
+ header {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+    
+  }
+}
+
+
