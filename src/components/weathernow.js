@@ -1,11 +1,11 @@
 import React from "react";
 import "../App.css";
-import mostlycloudy from "../src/img/weather-icons/mostlycloudy.svg";
+import mostlycloudy from "../img/weather-icons/mostlycloudy.svg";
 
 class weathernow extends React.Component {
     render() {
         return(
-            <div className="app">
+          <div>
       <main className="app__main">
             <div className="weather">
             <img src={mostlycloudy} alt="partlycloudy image" className="center" ></img>

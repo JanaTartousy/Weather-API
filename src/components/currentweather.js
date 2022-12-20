@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
-import mostlycloudy from "../src/img/weather-icons/mostlycloudy.svg";
-import clear from "../src/img/weather-icons/clear.svg";
+import mostlycloudy from "../img/weather-icons/mostlycloudy.svg";
+import clear from "../img/weather-icons/clear.svg";
 class currentweather extends React.Component {
     render() {
         return(
