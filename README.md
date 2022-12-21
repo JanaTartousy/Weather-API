@@ -125,6 +125,7 @@ If you're still new to React and props you should now spend a little time practi
 
 Don't invest too much time in this, however, because what we pass will change in the next step.
 
+
 ### 4. Let's try it with a **STATIC** JSON file <kbd>🔑x10</kbd>
 
 Now let's use an example **static** JSON file and use the data in that JSON object for our temperature and other values. This means your app will read those values locally, from a static JSON file you should include in your project.

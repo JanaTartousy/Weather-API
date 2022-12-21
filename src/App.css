@@ -1,5 +1,5 @@
 .app {
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
   transition: background-color 1s ease-in;
 }
@@ -61,8 +61,7 @@ input::placeholder{
   
 }
 .app__main .weather{
-  height: 400px;
-  width: 400px;
+  height: 317px;
   margin: 0px;
  text-align: center;
 }
@@ -73,6 +72,7 @@ input::placeholder{
   margin-bottom: -26px;
  
 }
+
 
 .click{
   background-color: rgba(88,121,199,255);
@@ -136,13 +136,16 @@ margin-right: 70px;
 .tempers{
   font-family: Raleway;
   color: #1c256d;
-  display: flex;
+  
   justify-content: space-between ;
   
 }
 
 .app__main{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+
 }
 .section{
   margin-top: 70px;
@@ -150,7 +153,7 @@ margin-right: 70px;
 .weather{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  
   align-items: center;
 }
 @media screen and (max-width: 992px) {
@@ -166,11 +169,11 @@ margin-right: 70px;
   }
 
  header {
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     
   }
 }
